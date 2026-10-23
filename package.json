@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "verify:etl": "node --experimental-strip-types --test lib/etl.test.ts",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
     "typecheck": "tsc --noEmit"
   },
@@ -15,6 +16,7 @@
     "@base-ui/react": "^1.9.0",
     "@hugeicons/core-free-icons": "^4.3.5",
     "@hugeicons/react": "^1.1.10",
+    "@supabase/server": "^1.9.2",
     "class-variance-authority": "^0.7.1",
     "cn": "^0.5.0",
     "next": "16.4.2",
