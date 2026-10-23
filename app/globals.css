@@ -42,3 +42,23 @@
 .dark .quality-footer{border-color:var(--border)}
 .dark .live-dot{box-shadow:0 0 0 3px #263b30}
 .dark input[type=checkbox]{accent-color:#53b98d}
+/* Tipografía algo mayor para que los datos y controles se lean con facilidad. */
+body{font-size:15px}
+.practice-tag,.realtime-label{font-size:9px}
+.field-group>label,.filters>label,.raw-inspector aside label,.compact-filters label{font-size:13px}
+.city-option,.date-row label,.date-row input,.filters input,.filters select,.compact-filters input,.compact-filters select,.raw-inspector select{font-size:13px!important}
+.phase-card h3{font-size:14px}
+.phase-card p{font-size:11px}
+.phase-counts span,.counter-strip span{font-size:9px}
+.tab-list button{font-size:12px}
+.filters>label{font-size:11px}
+.filters input,.filters select{font-size:11px!important}
+.selection-toolbar{font-size:12px}
+th{font-size:10px}
+th small{font-size:10px}
+td{font-size:12px}
+.city-cell{font-size:11px}
+.table-footer,.pagination{font-size:12px}
+.load-footer p,.raw-inspector aside p,.table-note{font-size:11px}
+.raw-inspector pre{font-size:11px}
+.batch-chip{font-size:10px}
